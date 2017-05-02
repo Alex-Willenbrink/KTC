@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="122.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ktc_v6.FXMLDocumentController">
+   <children>
+      <Pane layoutY="6.0" prefHeight="205.0" prefWidth="245.0">
+         <children>
+            <ColorPicker fx:id="colorPicker" layoutX="109.0" layoutY="26.0" prefHeight="25.0" prefWidth="95.0" />
+            <Label layoutX="26.0" layoutY="30.0" prefHeight="17.0" prefWidth="34.0" text="Color" />
+            <Label layoutX="14.0" layoutY="67.0" prefHeight="17.0" prefWidth="80.0" text="Aggression" />
+            <Label layoutX="35.0" layoutY="5.0" prefHeight="17.0" prefWidth="134.0" text="Chemotherapy Selection" />
+            <ChoiceBox fx:id="cbAggression" layoutX="109.0" layoutY="63.0" prefHeight="25.0" prefWidth="95.0" />
+            <Button fx:id="buttonContinue" layoutX="38.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="160.0" text="Continue" />
+            <Label layoutX="7.0" layoutY="107.0" prefHeight="17.0" prefWidth="95.0" text="Color Specificity" />
+            <ChoiceBox fx:id="cbColorSpec" layoutX="109.0" layoutY="103.0" prefHeight="25.0" prefWidth="95.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
